@@ -15,7 +15,7 @@ spec:
         app: bakehouse
     spec:
       containers:
-      - image: khaled12h/bakehouseitisohag:v${BUILD_NUMBER}
+      - image: mhmd97/bakehouseitisohag:v${BUILD_NUMBER}
         name: bakehouse
         imagePullPolicy: Always
         ports:
